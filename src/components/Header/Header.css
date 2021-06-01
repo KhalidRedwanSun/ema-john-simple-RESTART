@@ -1,0 +1,34 @@
+.header img{
+    height: 80px;
+    margin-bottom: 10px;
+    
+}
+
+.header{
+    text-align: center;
+
+
+}
+
+.header nav{
+    background-color: black;
+    /* nav er pura section er height paranor jonno line-height use kora hoy */
+    line-height: 50px;
+    font-size:20px;
+}
+
+nav a{
+    /* anchor tag link toiri kore and text er niche default obosthay underline rakhe ..so underline shoranor jonno text-decoration none kora hoyese */
+    text-decoration:none;
+    color: white;
+    margin-right: 20px;
+
+    /* anchor a padding dile hover er jayga tao barbe dekhte valo lagbe  */
+    padding:7px;
+}
+/* ekhon  page a anchor kaj kortese kina bujhte shop ba order-review te click kore dekho change hocche kina local host   */
+
+
+nav a:hover{
+    background-color:rgb(32, 206, 218);
+}

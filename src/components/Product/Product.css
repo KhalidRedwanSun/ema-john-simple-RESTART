@@ -1,0 +1,30 @@
+.product{
+    display: flex;
+    border-bottom: 2px solid lightsalmon;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.product-name{
+    color:blue;
+    font-weight: 500;
+
+
+
+}
+
+.main-button{
+    background-color:goldenrod;
+    width: 150px;
+    height:30px;
+    border: 1px solid darkgray ;
+    border-radius:5px;
+
+    /* cursor : pointer dile add to cart er jaygay hand er moto ashbe  */
+    cursor: pointer;
+
+}
+
+.icon{
+    margin-right: 5px;
+}
